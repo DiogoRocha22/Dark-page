@@ -1,0 +1,13 @@
+button{
+    width: 40%;
+    height: 3.5em;
+    border-radius: 25px;
+    background: linear-gradient(90deg, hsl(198, 60%, 50%) 3%, hsl(176, 68%, 64%) 100%);
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    transform: translateY(-3px);
+    transition: 1s;
+}
