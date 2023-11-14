@@ -1,11 +1,13 @@
 button{
     width: 40%;
     height: 3.5em;
+    min-height: 50px;
     border-radius: 25px;
     background: linear-gradient(90deg,hsl(176, 68%, 64%) , hsl(198, 60%, 50%) 90%);
     color: white;
     cursor: pointer;
     transition: 1s;
+    border: 0;
 }
 button:hover{
     transform: translateY(-3px);

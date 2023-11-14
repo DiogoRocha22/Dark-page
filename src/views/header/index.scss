@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    background-color: hsl(217, 28%, 15%);
+    padding: 60px 80px;
+    font-family: 'raleway';
+
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    ul{
+        display: flex;
+        gap: 50px;
+    }
+    
+    li{
+        color: rgb(206, 209, 212);
+        list-style: none;
+        cursor: pointer;
+    }
+    li:hover{
+        color: rgb(97, 210, 255);
+    }
+}
