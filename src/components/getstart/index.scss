@@ -1,0 +1,20 @@
+.action{
+    background-color: hsl(217, 28%, 15%) ;
+    color: aliceblue;
+    text-align: center;
+    height: 110vh;
+    position: relative;
+
+    .imgintro{
+        z-index: 99;
+    }
+
+    .bg{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 40%;
+        object-fit: cover;
+        width: 100%;
+    }
+}
