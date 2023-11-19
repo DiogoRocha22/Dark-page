@@ -1,6 +1,8 @@
+@use '../../sass/variables.scss' as *;
+
 .action{
-    background-color: hsl(217, 28%, 15%) ;
-    color: aliceblue;
+    background-color: $dark_blue ;
+    color: white;
     text-align: center;
     height: 110vh;
     position: relative;

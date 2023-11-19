@@ -1,8 +1,9 @@
 import React from 'react'
 import './App.scss'
-import Header from './views/header/Header'
+import Header from './components/header/Header'
 import Intro from './views/Intro/Intro'
 import Advant from './views/advant/Advant'
+import StayProd from './views/stayprod/StayProd'
 
 
 
@@ -11,19 +12,14 @@ function App() {
   return (
     <div>
       <Header />
+      
       <Intro />
-      <Advant/>
+      
+      <Advant />
+      
+      <StayProd />
 
-      Stay productive, wherever you are
-
-      Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-      storage needs.
-
-      Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-      attachments required.
-
-      See how Fylo works
-
+      
       Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
       become a well-oiled collaboration machine.
 

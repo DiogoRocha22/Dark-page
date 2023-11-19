@@ -1,6 +1,8 @@
+@use '../../sass/variables.scss' as *;
+
 .header{
     display: flex;
-    background-color: hsl(217, 28%, 15%);
+    background-color: $dark_blue;
     padding: 60px 80px;
     font-family: 'raleway';
 
@@ -22,6 +24,6 @@
         cursor: pointer;
     }
     li:hover{
-        color: rgb(97, 210, 255);
+        color: hsl(176, 68%, 64%);
     }
 }
