@@ -6,7 +6,7 @@ import arrow_icon from '../../assets/icon-arrow.svg'
 const StayProd = () => {
   return (
     <div className='stayp'>
-        <img src={imgStay} alt="" />
+        <img src={imgStay} width={'50%'} alt="" />
 
         <div>
             <h1>Stay productive, wherever you are</h1>

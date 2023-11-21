@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Intro from './views/Intro/Intro'
 import Advant from './views/advant/Advant'
 import StayProd from './views/stayprod/StayProd'
+import Feedback from './views/feedback/Feedback'
 
 
 
@@ -19,24 +20,13 @@ function App() {
       
       <StayProd />
 
+      <Feedback />
+
+
       
-      Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-      become a well-oiled collaboration machine.
 
-      Satish Patel
-      Founder & CEO, Huddle
+      
 
-      Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-      become a well-oiled collaboration machine.
-
-      Bruce McKenzie
-      Founder & CEO, Huddle
-
-      Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-      become a well-oiled collaboration machine.
-
-      Iva Boyd
-      Founder & CEO, Huddle
 
       Get early access today
 

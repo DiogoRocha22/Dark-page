@@ -1,0 +1,15 @@
+@use './../../sass/variables.scss' as *;
+
+.feedbacks{
+    display: flex;
+    justify-content: space-around;
+    background-color: $dark_blue_mainbg ;
+    padding: 0 10% 4rem;
+    padding-bottom: 4rem;
+
+    img{
+        position: absolute;
+        left: 10%;
+        z-index: 0;
+    }
+}
