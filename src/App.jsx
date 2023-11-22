@@ -5,6 +5,7 @@ import Intro from './views/Intro/Intro'
 import Advant from './views/advant/Advant'
 import StayProd from './views/stayprod/StayProd'
 import Feedback from './views/feedback/Feedback'
+import Footer from './views/footer/Footer'
 
 
 
@@ -21,6 +22,9 @@ function App() {
       <StayProd />
 
       <Feedback />
+
+
+      <Footer />
 
 
       
