@@ -2,10 +2,11 @@
 
 .feedbacks{
     display: flex;
+    position: relative;
     justify-content: space-around;
     background-color: $dark_blue_mainbg ;
     padding: 0 10% 4rem;
-    padding-bottom: 10rem;
+    padding-bottom: 18rem;
 
     img{
         position: absolute;

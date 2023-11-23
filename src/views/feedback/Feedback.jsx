@@ -5,6 +5,7 @@ import F_Cards from '../../components/feedback-cards/F_Cards'
 import profile1 from '../../assets/profile-1.jpg'
 import profile2 from '../../assets/profile-2.jpg'
 import profile3 from '../../assets/profile-3.jpg'
+import Getstart from '../../components/get_start/GetStart'
 
 
 const Feedback = () => {
@@ -23,6 +24,8 @@ const Feedback = () => {
         perfil = {profile3} 
         pNome='Iva Boyd'
        />
+
+       <Getstart />
     </div>
   )
 }
