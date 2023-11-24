@@ -11,12 +11,13 @@ const Footer = () => {
         
       <div className='footer__content'>
 
-        <figure>
+        <div className='logo'>
           <img src={logo} alt="erro" />
-        </figure>
+        </div>
+
         <div className='footer__contacts'>
           
-          <div style={{width:'27%'}} className='flex contacts'>
+          <div id='loc' className='flex contacts'>
             <img src={iconLoc} alt="" />
             <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>

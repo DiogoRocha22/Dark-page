@@ -1,5 +1,6 @@
 button{
-    width: 13vw;
+    width: 30%;
+    min-width: 170px;
     height: 3.5em;
     min-height: 50px;
     border-radius: 25px;
@@ -12,4 +13,11 @@ button{
 button:hover{
     transform: translateY(-3px);
     transition: 1s;
+}
+@media screen and (max-width:668px){
+    button{
+        width: 90%;
+        min-width: none;
+    }
+    
 }

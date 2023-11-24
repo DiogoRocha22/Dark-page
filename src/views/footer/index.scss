@@ -3,18 +3,19 @@
 .footer{
     background-color: $dark_blue_footer ;
     position: relative;
-    padding: 5rem 6rem;
+    padding: 5rem 9vw;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    &__content{
-        margin-top: 18vh;
+    #loc{
+        width: 27vw;
+        padding-right: 5%;
     }
 
-    .contacts{
-        padding-right: 9vw;
+    &__content{
+        margin-top: 18vh;
     }
 
    .flex{
@@ -28,7 +29,7 @@
 
     
    nav{
-    padding-left: 4vw;
+    padding-left: 8vw;
    }
    a{
         color: white;
@@ -40,6 +41,8 @@
     }
     li{
         list-style: none;
+        padding-left: 1.5rem;
+        width: 7vw;
         padding-bottom: 1rem;
         font-size: 1.1rem;
     }
@@ -47,6 +50,8 @@
     &__contacts{
         display: flex;
         padding-top: 2rem;
+        padding-right: 8vw;
+        
 
         img{
             padding-right: 1rem;
@@ -54,6 +59,37 @@
             width: fit-content;
             object-fit: contain;
             align-self: flex-start;
+        }
+    }
+
+    @media screen and (max-width: 668px) {
+        padding-right: 0;
+        padding-bottom: 0.6rem;
+        
+        #loc{
+            width: 99%;
+        }
+
+        .contacts{
+            padding-bottom: 5rem;
+        }
+
+        nav{
+            padding: 0;
+            justify-content: space-between;
+        }
+        li{
+            padding-right: 6rem;
+        }
+
+        &__contacts{
+            flex-direction: column;
+            justify-content: center;
+
+
+            p{
+                width: 80%;
+            }
         }
     }
 }

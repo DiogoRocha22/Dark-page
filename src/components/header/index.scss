@@ -3,7 +3,7 @@
 .header{
     display: flex;
     background-color: $dark_blue;
-    padding: 60px 80px;
+    padding: 4rem 8%;
     font-family: 'raleway';
 
     &__nav{
@@ -25,5 +25,22 @@
     }
     li:hover{
         color: hsl(176, 68%, 64%);
+    }
+
+    @media screen and (max-width: 668px) {
+            padding: 4rem 0;
+        
+        img{
+            width: 100px;
+            margin-right: 8%;
+            padding-left: 5%;
+        }
+        ul{
+            gap: 10%;
+            align-items: center;
+        }
+        li{
+            width: 20vw;
+        }
     }
 }
