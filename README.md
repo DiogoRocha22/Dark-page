@@ -34,7 +34,7 @@ Site que contem desafios frontend para praticar. Recomendo muito para quem está
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone https://github.com/DiogoRocha22/Dark-page.git
 ```
 
 Entre no diretório do projeto
