@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 ## Screenshots
 
 ![App Screenshot](./src/design/desktop-design.jpg)
@@ -26,6 +25,9 @@ Com esse projeto pude treinar o desenvolvimento de layouts, tentando sempre esta
 Site que contem desafios frontend para praticar. Recomendo muito para quem está sem ideia de projetos e está buscando por desafios.
  - [FrontendMentor](https://www.frontendmentor.io/home)
  
+## Site funcionando em Servidor
+
+- [FyloPage](https://dark-pageby-diogo.netlify.app/)
 
 ## Rodando localmente
 
@@ -52,7 +54,6 @@ Inicie o servidor
 ```bash
   npm run start
 ```
-
 
 ## Autores
 
