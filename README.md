@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
@@ -61,4 +62,11 @@ Inicie o servidor
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
+=======
+Esse é um desafio do site Front end Mentor.
+>>>>>>> 424b20ec331680a16d40c4094455855294ed1065
 
+Projeto de Landing Page sobre gerenciamento de arquivos, usando das tecnologias: React, SASS
+
+Link do deploy:
+https://dark-pageby-diogo.netlify.app/
